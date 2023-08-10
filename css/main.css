@@ -120,7 +120,7 @@ main {
 /*-----------------------------------------------------TOP NAV STYLES-----------------------------------------------------*/  
 
 .topnav {
-	width: 600px;
+	width: 700px;
 	background-color: rgba(39,44,53,0.8);
 	overflow: hidden;
 }
@@ -133,6 +133,7 @@ main {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 1.3rem;
+	font-weight: 800;
 }
 
 .active {
@@ -154,7 +155,7 @@ main {
 	border: none;
 	outline: none;
 	color: #FFF;
-	padding: 16px 16px;
+	padding: 18px 16px;
 	background-color: inherit;
 	font-family: inherit;
 	margin: 0;
@@ -191,6 +192,10 @@ main {
 
 .dropdown:hover .dropdown-content {
 	display: block;
+}
+
+#carat {
+	padding-left: 3px;
 }
 
 
