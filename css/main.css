@@ -120,7 +120,7 @@ main {
 /*-----------------------------------------------------TOP NAV STYLES-----------------------------------------------------*/  
 
 .topnav {
-	width: 700px;
+	width: 800px;
 	background-color: rgba(39,44,53,0.8);
 	overflow: hidden;
 }
@@ -334,7 +334,7 @@ main {
 /*-----------------------------------------------------FOUNDATION AREA STYLES-----------------------------------------------------*/ 
 
 .foundation {
-	background-color: #FFF;
+	background-color: #40526E;
 	padding: 75px 50px;
 }
 
@@ -351,6 +351,7 @@ main {
 	font-size: 1.5rem;
 	line-height: 2;
 	font-weight: 800;
+	color: #FFF;
 }
 
 .logo {
