@@ -114,6 +114,11 @@ main {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.main-wrapper {
+	display: flex;
+	justify-content: space-between;
 	
 }
 
@@ -121,7 +126,7 @@ main {
 
 .topnav {
 	width: 800px;
-	background-color: rgba(39,44,53,0.8);
+	background-color: rgba(39,44,53,0.6);
 	overflow: hidden;
 }
 
@@ -161,12 +166,11 @@ main {
 	margin: 0;
 }
 
-
 .dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: #F3F2F3;
-	min-width: 160px;
+	min-width: 195px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
@@ -198,18 +202,13 @@ main {
 	padding-left: 3px;
 }
 
-
-
 /*-----------------------------------------------------HERO IMAGE STYLES-----------------------------------------------------*/ 
 
 .hero-text {
 	display: flex;
 	flex-direction: column;
-}
-
-.hero-content1 {
 	width: 1100px;
-	background-color: rgba(39,44,53,0.8);
+	background-color: rgba(39,44,53,0.6);
 	color: #FFF;
 	font-weight: bold;
 	border-top-left-radius: 40%;
@@ -221,7 +220,6 @@ main {
 	z-index: 2;
 	padding: 80px 40px 40px 40px;
 	text-align: center;
-	
 }
 
 .hero-text h1 {
@@ -237,37 +235,29 @@ main {
 	font-weight: 600;
 	font-style: italic;
 	font-size: 2rem;
-	padding-bottom: 20px
+	padding-bottom: 40px
 }
 
 .hero-text p {
 	font-family: quiverleaf-cf, sans-serif;
 	font-weight: 600;
 	font-style: normal;
-	font-size: 2rem;
-	text-align: justify;
+	font-size: 1.7rem;
 }
 
-/*-----------------------------------------------------ASIDE STYLES-----------------------------------------------------*/ 
-
-.aside-container {
+.hero-wrapper {
 	width: 100%;
-	background-color: #40526E;
-	padding: 75px 50px;
-	font-size: 1.8rem;
-	line-height: 1.5;
-	color: #FFF;
-	text-align: justify;
+	display: flex;
+	justify-content: space-between;
 }
 
-.aside-container p:first-child:first-letter {
-	font-size: 90px;
-	float: left;
-	padding-right: 5px;
-	height: 64px;
-	margin-right: 10px;
-	line-height: 70px;
-	font-family: adorn-engraved-expanded, sans-serif;
+.description {
+	flex: 60%;
+	padding-right: 20px;
+}
+
+.contact-module {
+	flex: 20%;
 }
 
 /*-----------------------------------------------------SLIDESHOW STYLES-----------------------------------------------------*/ 
@@ -354,10 +344,21 @@ main {
 	color: #FFF;
 }
 
+.payment-style {
+	font-family: canto-pen, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
 .logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.logo img {
+	border-radius: 8px;
+	opacity: 0.8;
 }
 
 
