@@ -361,6 +361,39 @@ main {
 	opacity: 0.8;
 }
 
+/*-----------------------------------------------------FOOTER STYLES-----------------------------------------------------*/ 
+
+footer {
+	width: 100%;
+	background-color: #272C35;
+	color: #FFF;
+	font-size: 1.2rem;
+	padding: 10px;
+}
+
+.footer-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	font-weight: 800;
+	font-style: normal;
+}
+
+footer a:link {
+	color: #FFF;
+}
+
+footer a:visited {
+	color: #FFF;
+}
+
+footer a:hover {
+	color: #909EB4;
+}
+
+footer a:active {
+	color: #FFF;
+}
 
 /* ==========================================================================
    Helper classes
@@ -450,9 +483,7 @@ main {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
